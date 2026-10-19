@@ -42,7 +42,7 @@ namespace IngatlanApp
 
         public override string ToString()
         {
-            return $"Ingatlan: {Helyrajziszam} | Terület: {alapterulet} m2 | Becsült érték: {BecsultErtek()} Ft";
+            return $"Ingatlan {Helyrajziszam} | Terület: {alapterulet} m2 | Becsült érték: {BecsultErtek()} Ft";
         }
     }
 }
