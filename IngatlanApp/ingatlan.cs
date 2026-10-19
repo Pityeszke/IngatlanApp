@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IngatlanApp
 {
-    internal class Ingatlan
+    public class Ingatlan
     {
         public string Helyrajziszam { get; set; }
         protected int alapterulet;
